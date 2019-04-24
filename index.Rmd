@@ -3,4 +3,11 @@ title: "About me"
 ---
 
 I am a research assistant in the Indian Institute of Science's [Centre for Ecological Sciences](http://ces.iisc.ac.in/new/).
+
 I work with [Professor Vishwesha Guttal](https://teelabiisc.wordpress.com/) under the guidance of [Akanksha Rathore](https://sites.google.com/view/akanksha-rathore/) on Lekking dynamics of Blackbuck (*Antilope cervicapra*) and contributing towards preserving the rare mating strategy in India.
+
+## Academic Background
+
+I did my Masters in Ecology and Environmental Sciences from Pondicherry University. My Masters dissertation was on studying the Factors Affecting Prevalence of *Dendrophthoe falcata* (Loranthaceae) in a Secondary TDEF in Auroville, Pondicherry. I was advised by [Professor N Parthasarathy](http://www.pondiuni.edu.in/profile/dr-n-parthasarathy).
+
+I did my Bachelors in Information Technology from [Sri Sivasubramaniya Nadar College of Engineering](http://www.ssn.edu.in/). My Bachelors dissertation was on simulating A Smarter Toll Gate Based on Web of Things. It was published in IEEE XPlore and presented at IEEE CONECCT 2013 in Bangalore. I was advised by [Professor Vinob Chander](http://www.ssn.edu.in/?page_id=1658) and this was a joint project with [Ragavi Pala Janardhan](https://www.linkedin.com/in/ragavi-pala-janardhan-456b4784/).

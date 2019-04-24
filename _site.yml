@@ -4,7 +4,7 @@ navbar:
   title: "Preethi Rajasekaran"
   left:
     - text: "Home"
-      href: index.html
+      href: README.html
     - text: "Current Research"
       href: research.html
     - text: "Publications"
