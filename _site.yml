@@ -5,7 +5,7 @@ navbar:
   type: inverse
   left:
     - text: "Home"
-      icon: fa-home
+      icon: fas fa-home
       href: README.html
     - text: "Current Research"
       href: research.html
