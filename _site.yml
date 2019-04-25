@@ -8,12 +8,16 @@ navbar:
       icon: fas fa-home
       href: README.html
     - text: "Current Research"
+      icon: fab fa-react
       href: research.html
     - text: "Publications"
+      icon: fas fa-file-alt
       href: publications.html
     - text: "Honors"
+      icon: fas fa-trophy
       href: honors.html
     - text: "Reach out"
+      icon: fas fa-laptop-code
       href: social.html
 output:
   html_document:
