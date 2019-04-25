@@ -59,6 +59,7 @@ rhandsontable(table3, rowHeaders = NULL,
                width = NULL, height = NULL)
 
 ```
+
 ### Honors
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}

@@ -2,7 +2,10 @@
 title: "Reach me"
 ---
 
-LinkedIn : [Preethi Rajasekaran @ LinkedIn](https://www.linkedin.com/in/preethi-r-30468315/)
-Facebook : [Preethi Rajasekaran @ Facebook](https://www.facebook.com/preethi.rajasekaran)
-GitHub : [Preethi Rajasekaran @ GitHub](https://github.com/preethirajasekaran?tab=repositories)
-ResearchGate: [Preethi Rajasekaran @ ResearchGate](https://www.researchgate.net/profile/Preethi_Rajasekaran)
+LinkedIn : https://www.linkedin.com/in/preethi-r-30468315/
+
+Facebook : https://www.facebook.com/preethi.rajasekaran
+
+GitHub : https://github.com/preethirajasekaran?tab=repositories
+
+ResearchGate: https://www.researchgate.net/profile/Preethi_Rajasekaran
