@@ -1,3 +1,5 @@
 ---
   title: "Publications"
 ---
+
+1. **A Smarter Toll Gate Based on Web of Things**, January 2013. Published in IEEE Xplore and presented at IEEE CONECCT Conference, Bangalore. Co-authors : [Professor Vinob Chander](http://www.ssn.edu.in/?page_id=1658) and [Ragavi Pala Janardhan](https://www.linkedin.com/in/ragavi-pala-janardhan-456b4784/)

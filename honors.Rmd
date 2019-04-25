@@ -1,3 +1,87 @@
 ---
-title: "Honors"
+title: "Coursework and Honors"
 ---
+### Coursework
+
+1. 2019 (IISc - Teaching Assistant)
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+table1 <- tibble::tribble(
+                           ~Course,           ~Facilitator,
+             "Theoretical Ecology", "Dr. Vishwesha Guttal",
+  "Advanced Ecological Statistics",   "Dr. Kavita Isvaran")
+
+require(knitr)
+kable(table1, digits = 3, row.names = FALSE, align = "c",
+              caption = NULL)
+```
+
+2. 2018 (IISc - Audited)
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+table2 <- tibble::tribble(
+                 ~Course,                                  ~Facilitator,
+  "Quantitative Ecology", "Dr. Kavita Isvaran and Dr. Vishwesha Guttal"
+  )
+
+require(knitr)
+kable(table2, digits = 3, row.names = FALSE, align = "c",
+              caption = NULL)
+
+```
+
+3. 2016 - 2018 (Pondicherry University - Coursework)
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+table3 <- tibble::tribble(
+                                              ~Course, ~Facilitator,
+                               "Conservation Biology",          "A",
+                             "Remote Sensing and GIS",         "A+",
+                                          "Evolution",         "A-",
+     "Environmental Informatics and Spatial Modeling",         "A+",
+                                       "Biodiversity",         "A+",
+                                      "Forest Botany",          "A",
+                                     "Animal Ecology",          "A",
+                                      "Plant Ecology",         "A+",
+                        "Ecology of Medicinal Plants",         "A+",
+                                        "Ornithology",          "A",
+                                    "Aquatic Ecology",          "A",
+                                "Terrestrial Ecology",         "A+",
+                   "Population and Community Ecology",         "A+",
+  "Statistics for Ecology and Environmental Sciences",         "A+"
+  )
+
+require(knitr)
+kable(table3, digits = 3, row.names = FALSE, align = "c",
+              caption = NULL)
+
+```
+### Honors
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+table3 <- tibble::tribble(
+                                 ~Award,                ~Organisation, ~Year,
+  "Best Outgoing Student (Shortlisted)", "SSN College of Engineering",  2013,
+                  "MENSA High IQ Award",                "MENSA India",  2012
+  )
+
+require(knitr)
+kable(table3, digits = 3, row.names = FALSE, align = "c",
+              caption = NULL)
+
+```
+
+### Competitive Examinations
+
+1. Graduate Record Examination General Test GRE 2019 - *319.5 out of 346*
+2. International English Language Testing System IELTS 2019 - *Band 8.5 out of 9*
+3. Graduate Aptitude Test in Engineering GATE 2018 - Ecology and Evolution, *830 out of 1000*, All India Rank : 11
+4. UGC-NET Environmental Sciences JRF & LS July 2018 Qualified
+5. Test of English as a Foreign Language TOEFL 2012 - *111 out of 120*
+
+### Scholarships
+
+1. Merit scholarship semester 1 to 4 during M.Sc for scoring among the top 3 ranks.
+2. University Rank 2 in M.Sc.
+3. Merti scholarship year 1 during B.Tech for scoring among the top 3 ranks.
+4. University Rank 38 out of 3870 candidates in B.Tech.
