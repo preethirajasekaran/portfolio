@@ -11,9 +11,10 @@ table1 <- tibble::tribble(
              "Theoretical Ecology", "Dr. Vishwesha Guttal",
   "Advanced Ecological Statistics",   "Dr. Kavita Isvaran")
 
-require(knitr)
-kable(table1, digits = 3, row.names = FALSE, align = "c",
-              caption = NULL)
+require(rhandsontable)
+rhandsontable(table1, rowHeaders = NULL,
+               digits = 3, useTypes = FALSE, search = FALSE,
+               width = NULL, height = NULL)
 ```
 
 2. 2018 (IISc - Audited)
@@ -24,9 +25,10 @@ table2 <- tibble::tribble(
   "Quantitative Ecology", "Dr. Kavita Isvaran and Dr. Vishwesha Guttal"
   )
 
-require(knitr)
-kable(table2, digits = 3, row.names = FALSE, align = "c",
-              caption = NULL)
+require(rhandsontable)
+rhandsontable(table2, rowHeaders = NULL,
+               digits = 3, useTypes = FALSE, search = FALSE,
+               width = NULL, height = NULL)
 
 ```
 
@@ -51,23 +53,25 @@ table3 <- tibble::tribble(
   "Statistics for Ecology and Environmental Sciences",         "A+"
   )
 
-require(knitr)
-kable(table3, digits = 3, row.names = FALSE, align = "c",
-              caption = NULL)
+require(rhandsontable)
+rhandsontable(table3, rowHeaders = NULL,
+               digits = 3, useTypes = FALSE, search = FALSE,
+               width = NULL, height = NULL)
 
 ```
 ### Honors
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
-table3 <- tibble::tribble(
+table4 <- tibble::tribble(
                                  ~Award,                ~Organisation, ~Year,
   "Best Outgoing Student (Shortlisted)", "SSN College of Engineering",  2013,
                   "MENSA High IQ Award",                "MENSA India",  2012
   )
 
-require(knitr)
-kable(table3, digits = 3, row.names = FALSE, align = "c",
-              caption = NULL)
+require(rhandsontable)
+rhandsontable(table4, rowHeaders = NULL,
+               digits = 3, useTypes = FALSE, search = FALSE,
+               width = NULL, height = NULL)
 
 ```
 
