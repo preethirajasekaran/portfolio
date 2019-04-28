@@ -3,78 +3,56 @@ title: "Coursework and Honors"
 ---
 ### Coursework
 
-1. 2019 (IISc - Teaching Assistant)
-
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-table1 <- tibble::tribble(
-                           ~Course,           ~Facilitator,
-             "Theoretical Ecology", "Dr. Vishwesha Guttal",
-  "Advanced Ecological Statistics",   "Dr. Kavita Isvaran")
-
-require(rhandsontable)
-rhandsontable(table1, rowHeaders = NULL,
-               digits = 3, useTypes = FALSE, search = FALSE,
-               width = NULL, height = NULL)
-```
+|Course|Facilitator|
+|:------------------------:|:-----------------------:|
+|Theoretical Ecology|Dr. Vishwesha Guttal|
+|Advanced Ecological Statistics|Dr. Kavita Isvaran|
 
 2. 2018 (IISc - Audited)
 
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-table2 <- tibble::tribble(
-                 ~Course,                                  ~Facilitator,
-  "Quantitative Ecology", "Dr. Kavita Isvaran and Dr. Vishwesha Guttal"
-  )
-
-require(rhandsontable)
-rhandsontable(table2, rowHeaders = NULL,
-               digits = 3, useTypes = FALSE, search = FALSE,
-               width = NULL, height = NULL)
-
-```
+|Course|Facilitator|
+|:------------------------:|:-----------------------:|
+|Quantitative Ecology|Dr. Kavita Isvaran and Dr. Vishwesha Guttal|
 
 3. 2016 - 2018 (Pondicherry University - Coursework)
 
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-table3 <- tibble::tribble(
-                                              ~Course, ~Facilitator,
-                               "Conservation Biology",          "A",
-                             "Remote Sensing and GIS",         "A+",
-                                          "Evolution",         "A-",
-     "Environmental Informatics and Spatial Modeling",         "A+",
-                                       "Biodiversity",         "A+",
-                                      "Forest Botany",          "A",
-                                     "Animal Ecology",          "A",
-                                      "Plant Ecology",         "A+",
-                        "Ecology of Medicinal Plants",         "A+",
-                                        "Ornithology",          "A",
-                                    "Aquatic Ecology",          "A",
-                                "Terrestrial Ecology",         "A+",
-                   "Population and Community Ecology",         "A+",
-  "Statistics for Ecology and Environmental Sciences",         "A+"
-  )
+|Course|Grade|
+|:---------------------------------:|:----------------:|
+|Conservation Biology|A|
+|Remote Sensing and GIS|A+|
+|Evolution|A-|
+|Environmental Informatics and Spatial Modeling|A+|
+|Biodiversity|A+|
+|Forest Botany|A|
+|Animal Ecology|A|
+|Plant Ecology|A+|
+|Ecology of Medicinal Plants|A+|
+|Ornithology|A|
+|Aquatic Ecology|A|
+|Terrestrial Ecology|A+|
+|Population and Community Ecology|A+|
+|Statistics for Ecology and Environmental Sciences|A+|
 
-require(rhandsontable)
-rhandsontable(table3, rowHeaders = NULL,
-               digits = 3, useTypes = FALSE, search = FALSE,
-               width = NULL, height = NULL)
+### Testimonials
 
-```
+1. Ramana Shankar Yenishetti, Senior Project Manager at Ericsson India Global Services (Reporting Manager)
+
+> Preethi joined my team as a fresher for post paid billing project during 2013-14 and worked for 1 - 2 years. She always surprises not only me but entire team with her attitude towards work. She is superb in understanding complex product in no time and ensured output as committed. Being a fresher passed out of college , had no back ground experience but worked like 7 years experienced professional. With no second thoughts i recommend her where ever she work, she will out perform and ensures recognition to the team.
+
+2. Tamanna Kalam, Wildlife Conservationist (Senior at Pondicherry University)
+
+> Preethi, is one of the most hard working and dedicated students I have met till date. Her passion for the field of conservation (despite starting off from a different stream) is contagious! She is extremely diligent in her work and pays close attention to small details. She also puts in a lot of effort to implement feedback/advice given to her. Preethi is always eager to learn something new and is also very supportive of others. She has a long way to go in this field, and with her commendable work ethic, I have no doubt in my mind that she will. She will be an asset to any organisation she joins and I can only wish her the very best of luck.
+
+3. Saravanan Kandavelu, Senior Architect (Team member at Ericsson)
+
+> Preethi is a talented person with quick learning capability. And also she has the capability to adapt to the newer technology in no matter of time. She is an asset to any company that she works for. I am proud to recommend her here.
 
 ### Honors
 
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-table4 <- tibble::tribble(
-                                 ~Award,                ~Organisation, ~Year,
-  "Best Outgoing Student (Shortlisted)", "SSN College of Engineering",  2013,
-                  "MENSA High IQ Award",                "MENSA India",  2012
-  )
-
-require(rhandsontable)
-rhandsontable(table4, rowHeaders = NULL,
-               digits = 3, useTypes = FALSE, search = FALSE,
-               width = NULL, height = NULL)
-
-```
+|Award|Organisation|Year|
+|:------------------------------------:|:------------------------:|:-------:|
+|Best Outgoing Student (Shortlisted)|SSN College of Engineering|2013|
+|MENSA High IQ Award|MENSA India|2012|
 
 ### Competitive Examinations
 

@@ -2,7 +2,7 @@ name: "Preethi Rajasekaran"
 output_dir: "."
 navbar:
   title: "Preethi Rajasekaran"
-  type: inverse
+  type: default
   left:
     - text: "Home"
       icon: fas fa-home
