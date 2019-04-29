@@ -5,7 +5,9 @@ title: "About me"
 
 I would like to pursue a doctorate in Comparative Cognition, studying the cognition of animals in context of thinking, personality and decision making.
 
-<img src="preethi.jpg" style="width:25%; border:5px double; margin-right: 10px" align="left">
+```{r echo=FALSE, out.width = '50%'}
+knitr::include_graphics("preethi.jpg")
+```
 
 ### Currently
 
