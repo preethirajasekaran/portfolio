@@ -19,6 +19,8 @@ navbar:
     - text: "Reach out"
       icon: fas fa-laptop-code
       href: social.html
+    - text: "Gallery"
+      href: gallery.html
 output:
   html_document:
     theme: flatly

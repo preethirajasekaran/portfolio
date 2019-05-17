@@ -3,11 +3,7 @@ title: "About me"
 ---
 ### Goal
 
-I would like to pursue a doctorate in Comparative Cognition, studying the cognition of animals in context of thinking, personality and decision making.
-
-```{r echo=FALSE, out.width = '50%'}
-knitr::include_graphics("preethi.jpg")
-```
+I am an computer scientist turned ecologist with broad interests in plant-animal interactions, animal cognition and psychology. I hope to study and contribute in these fields during my career.
 
 ### Currently
 
