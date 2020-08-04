@@ -2,11 +2,11 @@
 title: "About me"
 ---
 
-I am an computer scientist turned ecologist with broad interests in behavioural ecology and animal cognition. 
+I am a computer scientist turned ecologist with a interest in behavioural ecology and animal cognition. 
 
 ### Currently
 
-I am a PhD student in Kavita Isvaran's lab at the Indian Institute of Science's [Centre for Ecological Sciences](http://ces.iisc.ac.in/new/). I am studying behavioural variation among individuals and plasticity in the lizard - South Indian Rock Agama (*Psammophillus dorsalis*).
+I am a PhD student in [Kavita Isvaran's](isvaranlab.weebly.com/) lab at the Indian Institute of Science's [Centre for Ecological Sciences](http://ces.iisc.ac.in/new/). I am studying behavioural variation among individuals and plasticity in the lizard - South Indian Rock Agama (*Psammophillus dorsalis*).
 
 ### Academic Background
 
@@ -24,7 +24,7 @@ In my other life, I worked in the capacity of a Software Engineer with Zoho Corp
 
 ### Resume
 
-For my complete resume, please 
+For my complete resume, please reach out to me. 
 
 <!--click [here](https://drive.google.com/open?id=1eugtdEAlnX-qhvTg077sUm6HDiAzTRls).-->
 
