@@ -2,7 +2,7 @@
 title: "About me"
 ---
 
-I am a computer scientist turned ecologist with broad interests in behavioural ecology and animal cognition. 
+I am a computer scientist turned ecologist with a broad interest in behavioural ecology and animal cognition. 
 
 ### Currently
 
