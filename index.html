@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -83,7 +83,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -232,6 +231,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -243,18 +243,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -288,13 +276,6 @@ $(document).ready(function () {
     <span class="fas fa fas fa-home"></span>
      
     Home
-  </a>
-</li>
-<li>
-  <a href="research.html">
-    <span class="fab fa fab fa-react"></span>
-     
-    Current Research
   </a>
 </li>
 <li>
@@ -338,14 +319,10 @@ $(document).ready(function () {
 </div>
 
 
-<div id="goal" class="section level3">
-<h3>Goal</h3>
-<p>I am an computer scientist turned ecologist with broad interests in plant-animal interactions, animal cognition and psychology. I hope to study and contribute in these fields during my career.</p>
-</div>
+<p>I am a computer scientist turned ecologist with a interest in behavioural ecology and animal cognition.</p>
 <div id="currently" class="section level3">
 <h3>Currently</h3>
-<p>I am a research assistant in the Indian Institute of Science’s <a href="http://ces.iisc.ac.in/new/">Centre for Ecological Sciences</a>.</p>
-<p>I work with <a href="https://teelabiisc.wordpress.com/">Professor Vishwesha Guttal</a> in the Theoretical Ecology and Evolution Lab under the guidance of <a href="https://sites.google.com/view/akanksha-rathore/">Akanksha Rathore</a> on lekking dynamics of Blackbuck (<em>Antilope cervicapra</em>).</p>
+<p>I am a PhD student in <a href="isvaranlab.weebly.com/">Kavita Isvaran’s</a> lab at the Indian Institute of Science’s <a href="http://ces.iisc.ac.in/new/">Centre for Ecological Sciences</a>. I am studying behavioural variation among individuals and plasticity in the lizard - South Indian Rock Agama (<em>Psammophillus dorsalis</em>).</p>
 </div>
 <div id="academic-background" class="section level3">
 <h3>Academic Background</h3>
@@ -354,15 +331,18 @@ $(document).ready(function () {
 </div>
 <div id="work-experience" class="section level3">
 <h3>Work Experience</h3>
-<p>I worked in the capacity of a Software Engineer with Zoho Corporation and Ericsson India Global Services Private Limited on implementing POP and IMAP protocols and postpaid billing module development respectively.</p>
+<p>I worked as a research assistant in the Indian Institute of Science’s <a href="http://ces.iisc.ac.in/new/">Centre for Ecological Sciences</a> before starting my PhD.</p>
+<p>I worked with <a href="https://teelabiisc.wordpress.com/">Professor Vishwesha Guttal</a> in the Theoretical Ecology and Evolution Lab under the guidance of <a href="https://sites.google.com/view/akanksha-rathore/">Akanksha Rathore</a> on lekking dynamics of Blackbuck (<em>Antilope cervicapra</em>).</p>
+<p>In my other life, I worked in the capacity of a Software Engineer with Zoho Corporation and Ericsson India Global Services Private Limited on implementing POP and IMAP protocols and postpaid billing module development respectively.</p>
 </div>
 <div id="resume" class="section level3">
 <h3>Resume</h3>
-<p>For my complete resume, please click <a href="https://drive.google.com/open?id=1eugtdEAlnX-qhvTg077sUm6HDiAzTRls">here</a>.</p>
+<p>For my complete resume, please reach out to me.</p>
+<!--click [here](https://drive.google.com/open?id=1eugtdEAlnX-qhvTg077sUm6HDiAzTRls).-->
 </div>
 <div id="academic-content-writing" class="section level3">
 <h3>Academic Content Writing</h3>
-<p>I prepare content for competitive exams in my weekends. Contact me with freelancing opportunities.</p>
+<p>I have worked with educators to prepare content for competitive exams and schools. I would be happy to help with writing and designing education material for biology.</p>
 </div>
 
 <p>Copyright &copy; 2019 Preethi Rajasekaran All rights reserved.</p>
@@ -383,6 +363,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

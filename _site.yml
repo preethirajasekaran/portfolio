@@ -7,9 +7,9 @@ navbar:
     - text: "Home"
       icon: fas fa-home
       href: README.html
-    - text: "Current Research"
-      icon: fab fa-react
-      href: research.html
+#    - text: "Current Research"
+#      icon: fab fa-react
+#      href: research.html
     - text: "Publications"
       icon: fas fa-file-alt
       href: publications.html
