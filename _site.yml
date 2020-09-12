@@ -33,4 +33,5 @@ output:
     theme: flatly
     highlight: textmate
     include:
-      after_body: footer.html
+      after_body: _footer.html
+    css: style.css
