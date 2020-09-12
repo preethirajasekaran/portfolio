@@ -2,24 +2,31 @@ name: "Preethi Rajasekaran"
 output_dir: "."
 navbar:
   title: "Preethi Rajasekaran"
-  type: default
+  type: inverse
   left:
     - text: "Home"
-      icon: fas fa-home
-      href: README.html
-#    - text: "Current Research"
-#      icon: fab fa-react
-#      href: research.html
+      icon: fa-home
+      href: index.html
+    - text: "Previous work"
+      icon: fa fa-line-chart
+      href: research.html
     - text: "Publications"
       icon: fas fa-file-alt
       href: publications.html
     - text: "Honors"
       icon: fas fa-trophy
       href: honors.html
+    - text: "Co-curricular Activities"
+      icon: fa fa-handshake-o
+      href: cocurricular.html
+    - text: "Testimonials"
+      icon: fa fa-address-card
+      href: testimonials.html
     - text: "Reach out"
-      icon: fas fa-laptop-code
+      icon: fa-info
       href: social.html
     - text: "Gallery"
+      icon: fa-gear fa-spin
       href: gallery.html
 output:
   html_document:
