@@ -3,6 +3,7 @@ output_dir: "."
 navbar:
   title: "Preethi Rajasekaran"
   type: inverse
+  #type: default
   left:
     - text: "Home"
       icon: fa-home
@@ -29,9 +30,11 @@ navbar:
       icon: fa-gear fa-spin
       href: gallery.html
 output:
-  html_document:
-    theme: flatly
-    highlight: textmate
-    include:
-      after_body: _footer.html
-    css: style.css
+  rmdformats::readthedown:
+    highlight: kate
+  #html_document:
+    #theme: 
+    #highlight: textmate
+    #include:
+      #after_body: _footer.html
+    #css: css/bootstrap.css
