@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
-<meta charset="utf-8">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
 
 
 
@@ -14,18 +15,238 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet" />
-<script src="site_libs/bootstrap-3.3.7/js/bootstrap.min.js"></script>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<script src="site_libs/navigation-1.1/codefolding.js"></script>
-<link href="site_libs/magnific-popup-1.1.0/magnific-popup.css" rel="stylesheet" />
-<script src="site_libs/magnific-popup-1.1.0/jquery.magnific-popup.min.js"></script>
-<link href="site_libs/readthedown-0.1/readthedown.css" rel="stylesheet" />
-<script src="site_libs/readthedown-0.1/readthedown.js"></script>
-<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
 
 
 
@@ -35,7 +256,12 @@
 <body>
 
 
-<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
@@ -111,40 +337,19 @@
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div id="content" data-toggle="wy-nav-shift">
-
-<!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("text-table-of-contents");
-});
-</script>
-
-<!-- code folding -->
-
-<nav id="nav-top" role="navigation" aria-label="top navigation">
-    <a role="button" href="#" data-toggle="wy-nav-top"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
-</nav>
+<div class="fluid-row" id="header">
 
 
-<div id="header">
-<h1 class="title">My previous work</h1>
+
+<h1 class="title toc-ignore">My previous work</h1>
+
 </div>
 
 
-<div id="sidebar">
-    <h2><a href="#content">My previous work</a></h2>
-    <div id="table-of-contents">
-      
-    </div>
-    
-    <div id="postamble" data-toggle="wy-nav-shift" class="status">
-            </div>
-</div>
-
-<div id="main">
-<div id="research-experience" class="section level3">
-<h3>Research Experience</h3>
+<div id="research-experience" class="section level2 tabset">
+<h2>Research Experience</h2>
+<div id="blackbucks" class="section level3">
+<h3>Blackbucks</h3>
 <div id="conspecific-cueing-drives-mating-success-patterns-on-the-blackbuck-leks" class="section level4">
 <h4>Conspecific cueing drives mating success patterns on the blackbuck leks</h4>
 <p>I worked as a research assistant in the Indian Institute of Science’s <a href="http://ces.iisc.ac.in/new/">Centre for Ecological Sciences</a> before starting my PhD.</p>
@@ -156,15 +361,15 @@ $(document).ready(function () {
 <p>For a succinct summary, check out this <a href="https://drive.google.com/file/d/1ukgiJ3K3rVHBdUO5nJawrhqMDP8c2L2E/view">poster</a>.</p>
 </div>
 </div>
-<div id="masters" class="section level3">
-<h3>Masters</h3>
+<div id="mistletoes" class="section level3">
+<h3>Mistletoes</h3>
 <div id="factors-affecting-prevalence-of-dendrophthoe-falcata-loranthaceae-in-a-secondary-tropical-dry-evergreen-forest-in-india" class="section level4">
 <h4>Factors Affecting Prevalence of <em>Dendrophthoe falcata</em> (Loranthaceae) in a Secondary Tropical Dry Evergreen Forest in India</h4>
 <p>I did my Masters in Ecology and Environmental Sciences from Pondicherry University. My Masters dissertation was on studying the Factors Affecting Prevalence of <em>Dendrophthoe falcata</em> (Loranthaceae) in a Secondary TDEF in Auroville, Pondicherry. I was advised by <a href="http://www.pondiuni.edu.in/profile/dr-n-parthasarathy">Professor N Parthasarathy</a>.</p>
 </div>
 </div>
-<div id="keystone-foundation" class="section level3">
-<h3>Keystone Foundation</h3>
+<div id="eco-tourism" class="section level3">
+<h3>Eco-tourism</h3>
 <div id="the-growing-ecotourism-venture-in-sathyamangalam-tiger-reserve-a-baseline-study" class="section level4">
 <h4>The growing ecotourism venture in Sathyamangalam Tiger Reserve-A baseline study</h4>
 <p>I worked with <a href="https://keystone-foundation.org/teams/anita/">Dr. Anita Varghese</a> on a project that looked at understanding how the ecotourism venture, that was initiated by the <a href="https://sathytiger.org/">Sathyamangalam Tiger Reserve</a> was instrumental in alleviating the impacts of rampant unregulated tourism.</p>
@@ -175,8 +380,8 @@ $(document).ready(function () {
 <h3>Industry Experience</h3>
 <p>In my other life, I worked in the capacity of a Software Engineer with Zoho Corporation and Ericsson India Global Services Private Limited on implementing POP and IMAP protocols and postpaid billing module development respectively.</p>
 </div>
-<div id="bachelors" class="section level3">
-<h3>Bachelors</h3>
+<div id="web-of-things" class="section level3">
+<h3>Web of Things</h3>
 <div id="a-smarter-tollgate-based-on-web-of-things" class="section level4">
 <h4>A Smarter Tollgate Based on Web of Things</h4>
 <p>I did my Bachelors in Information Technology from <a href="http://www.ssn.edu.in/">Sri Sivasubramaniya Nadar College of Engineering</a>. My Bachelors dissertation was on simulating a Smarter Toll Gate Based on Web of Things. It was published in IEEE XPlore and presented at IEEE CONECCT 2013 in Bangalore. I was advised by <a href="http://www.ssn.edu.in/?page_id=1658">Professor Vinob Chander</a> and this was a joint project with <a href="https://www.linkedin.com/in/ragavi-pala-janardhan-456b4784/">Ragavi Pala Janardhan</a>.</p>
@@ -185,15 +390,38 @@ $(document).ready(function () {
 </div>
 
 
+
+
 </div>
 
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
 
 
+</script>
+
+<!-- tabsets -->
 
 <script>
 $(document).ready(function () {
- 	  });
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
+
+<!-- code folding -->
 
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
@@ -201,7 +429,7 @@ $(document).ready(function () {
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>
